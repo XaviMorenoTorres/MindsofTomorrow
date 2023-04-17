@@ -1,0 +1,105 @@
+html{
+    font-size: 12px;
+}
+*{
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+header{
+    background-image: url(../img/banner-2.jpg); 
+    width: 100%;
+    height: 90vh;
+    background-size: scale;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    text-align: center;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-size: 4rem;
+}
+body{
+    margin: 0;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+h3{
+    font-size: 7rem;
+}
+p{
+    font-size: 4rem;
+}
+.peq{
+    font-size: 2rem;
+    text-align: center;
+}
+.let{
+    font-size: 2rem;
+}
+.img1{
+    width: 700px;
+    margin-top: 60px;
+}
+.img2{
+    width: 220px;
+}
+.img3{
+    width: 550px;
+    margin-top: 100px;
+}
+.img4{
+    width: 369px;
+}
+.pad{
+    padding-left: 120px;
+}
+.pad1{
+    padding: 70px;
+}
+.pad6{
+    margin-left: 100px;
+}
+.pad7{
+    padding: 30px;
+}
+.column-25{
+    width: 25%;
+    background-color: rgb(55, 239, 144);
+    justify-content: center;
+    text-align: center;
+}
+.column-25-1{
+    width: 25%;
+}
+.column-50{
+    width: 50%;
+}
+.column-50-1{
+    width: 50%;
+}
+.column-50-2{
+    width: 50%;
+}
+.column-100{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(55, 239, 144);
+}
+.column-100-1{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(64, 167, 222);
+    margin-top: -5px;
+}
+
+@media screen and (max-width: 700px){
+
+}
