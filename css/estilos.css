@@ -44,6 +44,9 @@ p{
 .let{
     font-size: 2rem;
 }
+.let1{
+    font-size: 2rem;
+}
 .img1{
     width: 700px;
     margin-top: 60px;
@@ -92,6 +95,9 @@ p{
 .column-50-2{
     width: 50%;
 }
+.column-50-3{
+    width: 50%;
+}
 .column-100{
     width: 100%;
     text-align: center;
@@ -105,5 +111,34 @@ p{
 }
 
 @media screen and (max-width: 700px){
-
+.column-50{
+    width: 100%;
+    margin-left: -60px;
+}
+.column-50-1{
+    width: 100%;
+}
+.column-25{
+    width: 50%;
+}
+.column-25-1{
+    width: 50%;
+    margin-top: -5px;
+}
+.let1{
+    margin-left: -100px;
+}
+.column-50-3{
+    width: 100%;
+    padding: 50px;
+}
+.img1{
+    margin-left: 40px;
+}
+.img3{
+    margin-left: -150px;
+}
+.img4{
+    width: 343px;
+}
 }
